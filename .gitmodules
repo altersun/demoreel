@@ -1,0 +1,6 @@
+[submodule "x_macro"]
+	path = x_macro
+	url = git@github.com:altersun/x_macro.git
+[submodule "ringie"]
+	path = ringie
+	url = https://github.com/altersun/ringie
