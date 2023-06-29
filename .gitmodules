@@ -4,3 +4,6 @@
 [submodule "ringie"]
 	path = ringie
 	url = https://github.com/altersun/ringie
+[submodule "before_main"]
+	path = before_main
+	url = git@github.com:altersun/before_main.git

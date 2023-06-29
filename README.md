@@ -34,6 +34,13 @@ Pointer arithmetic, structs and a constructor "macro" in C, classes and template
 ### How do I check it out?
 It's a submodule of this repo. Do `git submodule update --init` and it will be ready to use (along with any other submodules). More info will be availible in its README.
 
+## Before Main
+I came up with the C++ trick of using the static object constructors to run code before `main()` starts a while ago but eventually turned the concept into a macro.
+### What's involved?
+An unexpected mix of `constexpr`, custom macros, and lesser-known macros like `__COUNTER__`.
+### How do I check it out?
+It's a submodule of this repo. Do `git submodule update --init` and it will be ready to use (along with any other submodules). More info will be availible in its README.
+
 ## Spider
 Eventually a set of C, C++, and python tools that suite my taste for embedded stuff.
 ### "Eventually?"
